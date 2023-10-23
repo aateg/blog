@@ -2,11 +2,13 @@ project:
   type: website
 
 website:
-  title: "my-website"
+  title: "aateg"
+  favicon: "static/sun.png"
   navbar:
+    logo: static/sun.png
     right:
-      - blog.qmd
-      - about.qmd
+      - text: "About"
+        href: about.qmd
       - icon: github
         href: https://github.com/aateg
 

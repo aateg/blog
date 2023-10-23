@@ -1,8 +1,8 @@
 ---
-title: "Finley Malloc"
+title: "aateg"
 image: static/profile.jpg
 about:
-  template: jolla
+  template: broadside
   links:
     - icon: linkedin
       text: LinkedIn
@@ -13,7 +13,7 @@ about:
 
 ---
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
+aateg is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
 
 ## Education
 
