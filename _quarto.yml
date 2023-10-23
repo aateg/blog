@@ -2,18 +2,25 @@ project:
   type: website
 
 website:
-  title: "blog"
+  title: "aateg"
+  favicon: "static/sun.png"
   navbar:
+    logo: static/sun.png
     right:
-      - about.qmd
+      - text: "About"
+        href: about.qmd
       - icon: github
         href: https://github.com/aateg
-      - icon: twitter
-        href: https://twitter.com
+
+  page-footer: 
+    center: 
+      - "Copyright 2023, aateg" 
+
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: static/styles.css
+    page-layout: full
 
 
 
