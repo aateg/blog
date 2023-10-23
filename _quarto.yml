@@ -9,18 +9,19 @@ website:
     right:
       - text: "About"
         href: about.qmd
+      - icon: medium
+        href: https://medium.com/@aateg29
       - icon: github
         href: https://github.com/aateg
 
   page-footer: 
     center: 
       - "Copyright 2023, aateg" 
+  
+  search: false
 
 format:
   html:
     theme: cosmo
     css: static/styles.css
     page-layout: full
-
-
-
