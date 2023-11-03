@@ -1,0 +1,13 @@
+---
+title: "Gaussian Mixture Models"
+author: "Guilherme Fernandes"
+date: "2023-11-03"
+categories: [statistics, code]
+image: "mixture.jpg"
+# https://unsplash.com/pt-br/fotografias/um-close-up-de-um-fundo-amarelo-e-azul-z0FbhQhpimI
+---
+
+# What are Mixture Models?
+In general statistics
+
+# What are Gaussian Mixture Models?

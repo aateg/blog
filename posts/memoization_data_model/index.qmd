@@ -1,0 +1,47 @@
+---
+title: "Data Models from Memoization"
+author: "Guilherme Fernandes"
+date: "2023-10-27"
+categories: [code, cache, memory]
+image: "memoization.jpg"
+# https://unsplash.com/pt-br/fotografias/fotografia-de-foco-seletivo-do-lote-de-notas-adesivas-escritas-kiBXqqRicBU
+---
+# How to cache data flow from a class model?
+## Improve the above question
+
+## testsss  
+
+Caching can speed up processing at the cost of a expensive memory. 
+
+The library functools provide a similar solution throught caching a maxsize outputs from a function call.
+
+```{python}
+from functools import lru_cache
+
+@lru_cache(maxsize=None)
+def fib(n):
+    if n < 2:
+        return n
+    return fib(n-1) + fib(n-2)
+
+[fib(n) for n in range(16)]
+
+```
+
+The aim is therefore to have a similar behaviour, which 
+Personalized  memoization
+
+```{python}
+class Memoize:
+    def __init__(self, fn):
+        self.fn = fn
+        self.memo = {}
+    def __call__(self, *args):
+        if args not in self.memo:
+            self.memo[args] = self.fn(*args)
+        return self.memo[args]
+```
+
+But how to create more complex data models with memoization?
+
+What if I wanted to export some specific methods from 
